@@ -1,0 +1,14 @@
+{
+  "name": "ubnt-scraper",
+  "version": "1.0.0",
+  "main": "ubnt.js",
+  "repository": "https://github.com/jrcichra/ubnt-scraper.git",
+  "author": "Justin Cichra <1342149+jrcichra@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "args": "^5.0.1",
+    "knex": "^0.21.1",
+    "mysql2": "^2.1.0",
+    "puppeteer": "^4.0.0"
+  }
+}
