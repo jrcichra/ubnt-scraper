@@ -101,7 +101,7 @@ const timeout = 2 * 60 * 1000;    //minutes to wait after navigation of a big pa
 
         return o;
     });
-    console.log(data);
+    // console.log(data);
 
     //insert it
     const options = {
@@ -138,7 +138,7 @@ const timeout = 2 * 60 * 1000;    //minutes to wait after navigation of a big pa
 
     let sql = `INSERT INTO ubnt (${paramString}) VALUES (${valueString})`;
 
-    console.log(sql);
+    // console.log(sql);
 
     await knex.raw(sql).then(
         () => console.log(`Inserted successfully`)
